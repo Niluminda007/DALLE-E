@@ -73,7 +73,7 @@ const ImageForm = () => {
         );
 
         await response.json();
-        navigate("/");
+        navigate("/DALLE-E/");
       } catch (err) {
         alert(err);
       } finally {
