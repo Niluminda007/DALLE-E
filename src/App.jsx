@@ -7,8 +7,8 @@ const App = () => {
     <BrowserRouter>
       <Header />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/create-post" element={<CreatePost />} />
+        <Route path="/dalle/" element={<Home />} />
+        <Route path="/dalle/create-post" element={<CreatePost />} />
       </Routes>
     </BrowserRouter>
   );
